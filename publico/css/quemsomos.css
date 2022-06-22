@@ -1,0 +1,88 @@
+body {
+    /*background-color:white;*/
+    text-align: center;
+}
+
+.anoesgamers {
+    text-align: center;
+}
+
+.anoesgamers div {
+    /*display: inline-block;*/
+    /*padding: 50px 0;
+    margin-left: 50px;*/
+    vertical-align: top;
+    border-color: #198754;
+    border-width: 4px;
+    border-style:groove;
+    /*color:white*/
+}
+
+.anoesgamers div:hover {
+    border-color: #0dcaf0;
+}
+
+.anoesgamers div:hover h1 {
+    font-size: 25px;
+    color: #0dcaf0;
+}
+
+.anoesgamers div:hover p {
+    color:#0dcaf0;
+    font-weight: bold;
+}
+.anoesgamers h1 {
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.imagem_bolada {
+    width: 200px;
+}
+
+.anoesgamers p {
+    /*text-align: justify;
+    width: 200px;*/
+    padding: 5px 0;
+}
+
+.linkaobrabo {
+    text-decoration: none;
+    /*color: white;*/
+}
+
+.linksus {
+    text-decoration: none;
+    /*color: white;*/
+}
+p {
+    font-size: 20px;
+}
+
+
+@media screen and (max-width: 768px){
+    
+    .navegacao {
+        position:static;
+        display: flex;
+        justify-content: left;
+        flex-direction: column;
+        width:auto;
+    }
+    .menu{
+        position: static;
+        top: 0px;
+        right: 0;
+    }
+
+    .menu-ul {
+        display: flex;
+        flex-direction: column;
+    }
+    .imagem_bolada{
+
+        width: 100%;
+
+    }
+
+}

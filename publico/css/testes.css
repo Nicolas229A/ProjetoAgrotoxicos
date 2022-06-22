@@ -1,0 +1,55 @@
+body{
+    display:flex;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: black;
+}
+
+.netflix{
+    width: 140px;
+    height: 250px;
+    position: relative;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    background: linear-gradient(
+        90deg,
+        #0b6879 0,
+        #0b6879 50px,
+        transparent 50px,
+        transparent 90px,
+        #0b6879 90px,
+        #0b6879 140px
+
+    );
+}
+    .netflix::before,
+    .netflix::after {
+        content: '';
+        display: block;
+        position: absolute;
+    }
+
+    .netflix::before{
+        width: 50px;
+        height: 250px;
+        top: 0px;
+        left: 45px;
+        background-color: #34b0e9; 
+        transform: skewX(19.6deg);
+        box-shadow: 0 0 30px black;
+    }
+
+    .netflix::after{
+        width: 190px;
+        height: 25px;
+        top: 245px;
+        left: -25px;
+        border-radius: 50%;
+        background-color: black;
+    }
+
+div{
+    color: #0b6879;
+    background-color: #34b0e9;
+}
